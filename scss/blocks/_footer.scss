@@ -1,0 +1,26 @@
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#333A44; 
+    background-size: cover;
+    width: 1106px;
+    // padding: 35px 165px 32px 168px;  
+}
+
+.bottom-left {
+    display: flex;
+    align-items: center;
+}
+.social-media-list {
+    display: flex;
+    gap: 24px;
+}
+
+.social-media {
+    margin-left: 57px;
+}
+
+.bottom-img {
+    margin-right: 58px;
+}

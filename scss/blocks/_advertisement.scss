@@ -1,0 +1,58 @@
+.advertisement {
+    background-image: url(../../images/background-advertisement.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 102px 165px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content-title {
+    width: 415px;
+    font-weight: 700;
+    font-size: 48px;
+    color: $white;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.apple {
+    background-color: #E5ECF4;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 5px;
+    width: 159px;
+    margin-left: 336px;
+}
+
+.play-market {
+    background-color: #E5ECF4;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 5px;
+    width: 182px;
+}
+
+.advertisement-img {
+    margin-right: 11px;
+}
+
+.discpription-text {
+    font-size: 10px;
+    color: $titles;
+}
+
+.discpription-title {
+    font-size: 20px;
+    color: $titles;
+}
+

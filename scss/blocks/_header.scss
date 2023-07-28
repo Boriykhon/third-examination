@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0;
+}
+
+.header-img {
+    vertical-align: middle;
+}
+
+.header-list {
+    display: flex;
+    gap: 32px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: $texts;
+    font-weight: 700;
+}
+
+.header-link:hover {
+    color: $brand;
+    transition: all 0,5s ease;
+    cursor: pointer;
+}
+
+.header-btn {
+    background-color: $brand;
+    color: $white;
+    width: 180px;
+    height: 53px;
+    border: 0;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.header-btn:hover {
+    color: $brand;
+    border: 3px solid $brand;
+    background-color: transparent;
+    transition: all 0.1s ease;
+    cursor: pointer;
+}

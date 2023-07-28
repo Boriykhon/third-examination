@@ -1,0 +1,46 @@
+.services {
+    margin-top: 160px;
+    position: relative;
+}
+
+.services-list {
+    display: flex;
+    align-items: center;
+}
+
+.path {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    z-index: -1;
+}
+
+.services-item {
+    width: 350px;
+}
+
+.services-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: $titles;
+    margin-bottom: 24px;
+    margin-top: 40px;
+}
+
+.services-text {
+    font-weight: 400;
+    font-size: 15px;
+    color: $texts;
+}
+
+.img-size {
+    width: 96px;
+    height: 96px;
+    text-align: center;
+}
+
+.services-img {
+    background-color: $brand;
+    border-radius: 50%;
+    z-index: 5;
+}
